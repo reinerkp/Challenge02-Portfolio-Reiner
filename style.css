@@ -1,0 +1,46 @@
+.header {
+    padding: 50px;
+    font-family: 'optima, sans-serif';
+    background-color: #fda403;
+}
+body {
+    background-color:#e8751a;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+h1{
+    color: #8a1253;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Stencil Std, fantasy, cursive';
+    font-size: 20px;
+   
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;}
+
+.All-Applications{
+
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+    
+.Applications {
+    
+    flex: 0 0 500px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    border-style: solid;
+    border-width: 3px; }
