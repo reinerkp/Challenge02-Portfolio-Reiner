@@ -1,18 +1,21 @@
 .header {
     padding: 50px;
     font-family: 'optima, sans-serif';
-    background-color: #fda403;
+    background-image: url("./Assets/header.jpg");
+    background-position: center center;
+    border-radius: 15px;
 }
 body {
-    background-color:#e8751a;
+    background: linear-gradient(#f17806,#e8751a, #fda403 );
 }
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 50px;
+
 }
 
 h1{
-    color: #8a1253;
+    color: #3d162b;
 }
 
 .header nav {
@@ -27,6 +30,8 @@ h1{
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;}
+
+
 
 .All-Applications{
 
@@ -44,3 +49,20 @@ h1{
     text-align: left;
     border-style: solid;
     border-width: 3px; }
+
+.pic1 {
+    width: 100%;
+}
+
+.pic2 {
+    width: 15%;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+@media screen and (max-width: 750px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
+}
