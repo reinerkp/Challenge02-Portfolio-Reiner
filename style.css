@@ -36,8 +36,8 @@ h1{
 .All-Applications{
 
     padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 1000px;
+    max-width: 0 auto;
    
 }
     
@@ -50,9 +50,13 @@ h1{
     border-style: solid;
     border-width: 3px; 
     height: 500px;
+    margin: 10px;
     
 }
-
+.sub-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 #cake {
     background-image: url("/Assets/cake.jpg");
     background-size: 100%;
@@ -104,6 +108,3 @@ footer li {
    
 }
 
-.Applications h4 {
-    background-color: ;
-}
